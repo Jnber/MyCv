@@ -2,14 +2,17 @@ body{
     background-color: #fccb3812;
 }
 .header {
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.centry{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.2);
     text-align: center;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
 .bg{
@@ -29,7 +32,7 @@ body{
   left: 0;
 }
 
-  h1, h3, h4 {
+  h1, h3, h4, h2 {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -51,15 +54,50 @@ h4 {
 }
 
 .aboutMe{
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    height: 35vh;
 }
 
 h2{
     color: #013a43;
+    font-weight: bold;
 }
 
+.education{
+    background-color: #011c23;
+    height: 60%;
+    width: 100%;
+    margin-left: -35px;
+}
+
+/* timeline style*/
+
+.cd-timeline-img {
+	top: 0;
+    left: 0;
+    margin-right: 20px;
+    padding-top: 15px;
+    border-radius: 50%;
+}
+
+.cd-timeline-img > img {
+	display: block;
+    width: 80px;
+    position: relative;
+    margin-left: -12px;
+    margin-top: -12px;
+	border-radius: 100%;
+} 
+
+.cd-picture {
+	background: white;
+}
+
+.cd-timeline-content {
+	background-color: white;
+	padding: 4%;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	width: 60%;
+    margin-bottom: 25px;
+}
+
+/* timeline style*/
